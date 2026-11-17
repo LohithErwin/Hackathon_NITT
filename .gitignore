@@ -1,0 +1,11 @@
+# Paper PDFs and generated data - never commit (licences / size)
+data/papers/*.pdf
+papers.zip
+data/processed/
+data/stores/
+# secrets
+.env
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
