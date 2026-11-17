@@ -1,0 +1,12 @@
+# Ingestion (Sid: inject.py/store.py, Lohith: src/ingest/)
+docling>=2.0
+pymupdf>=1.24
+sentence-transformers>=3.0     # BAAI/bge-small-en-v1.5
+faiss-cpu>=1.8
+chromadb>=0.5
+numpy>=1.26
+# RAG + generation (rag_engine.py)
+google-genai>=1.0.0            # Gemini vision model API
+openai>=1.40.0                 # optional: OpenAI gpt-4o instead
+python-dotenv>=1.0.0
+pytest>=8.0.0
